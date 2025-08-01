@@ -2,13 +2,8 @@
 
 <suite name="UI and API Test Suite" verbose="1" parallel="false">
 
-    <parameter name="browser" value="chrome"/>
+    <!--<parameter name="browser" value="chrome"/> -->
 
-    <!-- Suite-level listeners
-    <listeners>
-        <listener class-name="api.apilisteners.APiTestListener"/>
-        <listener class-name="ui.listeners.TestListener"/>
-    </listeners> -->
 
     <test name="API Tests">
         <classes>
